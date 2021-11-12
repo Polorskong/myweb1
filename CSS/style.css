@@ -1,0 +1,171 @@
+/* Vannet style */
+*{
+  font-family: 'Lato',sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+}
+.card-drink{
+    background-color: white;
+    border: 0px solid #E6AA55;
+    border-radius: 15px;
+    /* cursor: pointer; */
+    height: 100%;
+    padding: 10px;
+}
+img{
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+h2 {
+  font-weight: 900;
+  text-align: center;
+}
+h6 {
+  font-weight: 600;
+}
+h5 {
+  font-weight: 900;
+}
+h4 {
+  font-weight: 900;
+}
+
+.card-drink:hover {
+  transform: scale(1.005);
+  transition: 0.5s;
+  border: 1px solid #E6AA55;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+}
+.yellow-btn{
+  font-weight: 900;
+  background-color: #E6AA55;
+}
+.yellow-btn:hover{
+  color: #ffffff;
+  background: #856435;
+}
+.yellow-btn:active{
+  border: 1px solid;
+}
+.yellow-btn:focus{
+  box-shadow: none;
+}
+
+/* Porleas style */
+
+.category{
+    border: 1px solid #E6AA55;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    width: 90px;
+    height: 90px;
+    transition: width 1s, height 1s;
+    
+  }
+
+button.btn-hover{
+ border: 1px solid #E6AA55;
+}
+button.btn-hover:hover{
+    background-color: #E6AA55;
+}
+a.hover1:hover{
+    color: black;
+    background-color: #E6AA55;
+    transform: scale(1.10);
+    transition: 0.3s;
+    /* width: 100px;
+    height: 100px;
+    transition: width 1s, height 1s; */
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.clock_border{
+
+    text-align: center;
+    border: 1px #E6AA55;
+    border-radius: 10px;
+    background-color: #E6AA55;
+    transition: width 1s, height 1s;
+    padding: 6px;
+  }
+  
+.img_bill{
+  margin: 10px;
+  width: 100px;
+  height: fit-content;
+}
+
+#amount{
+  font-size: 18px;
+  font-weight: bold;
+}
+#price_items{
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  align-items: flex-end;
+}
+
+.delete_icon{
+  margin-right: 10px;
+}
+.delete_icon:hover{
+  color:red;
+}
+#bill_sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}
+
+#total{
+  font-size: 20px;
+  font-weight: 900;
+  align-items: center;
+  width:100%;
+  
+  margin: 10px;
+  bottom: 0; margin-top: 20px;
+  /* background-color: #E6AA55; */
+}
+
+.btn_style{
+  border-radius: 10px;
+  border: 1px solid #f3efeb;
+  padding-bottom: 8px;
+  background-color: #E6AA55 ;
+}
+
+.btn_style:hover{
+  border-radius: 10px;
+  border: 1px solid #f3efeb;
+  padding-bottom: 8px;
+  background-color: #d39b4e ;
+}
+#payment{
+  position: absolute;
+  background-color: inherit;
+  border: 2px solid #E6AA55;
+}
+#payment:hover{
+  position: absolute;
+  background-color: inherit;
+  border: 2px solid #E6AA55;
+  background-color: #E6AA55;
+  color: inherit;
+}
+
+
